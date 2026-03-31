@@ -1,0 +1,40 @@
+name: cultural_analytics
+channels:
+  - conda-forge
+dependencies:
+  # core python
+  - python=3.14.2
+
+  # data manipulation
+  - pandas=3.0.0
+  - numpy=2.3.5
+
+  # machine learning / text
+  - scikit-learn=1.8.0
+  - nltk=3.9.4
+
+  # image processing
+  - pillow=12.1.0
+  - opencv=4.13.0
+
+  # visualization
+  - plotly=6.5.2
+  - matplotlib=3.10.8
+
+  # notebook
+  - jupyter
+  - jupyterlab
+  - ipykernel
+
+  # utilities
+  - pip=25.3
+
+  - pip:
+      # word cloud
+      - wordcloud==1.9.6
+
+      # plotly static image export (used for savefig)
+      - kaleido==1.2.0
+
+      # face detection (attempted, documented as limitation)
+      - mediapipe==0.10.33
