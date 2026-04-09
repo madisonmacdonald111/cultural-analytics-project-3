@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO 230: Mini-Project 3</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 820px;
+            margin: 60px auto;
+            padding: 0 24px;
+            color: #1a1a1a;
+            background: #fafafa;
+            line-height: 1.7;
+        }
+        h1 {
+            font-size: 1.9em;
+            font-weight: normal;
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 10px;
+            margin-bottom: 6px;
+        }
+        .subtitle {
+            font-size: 0.95em;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 36px;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+        p {
+            margin: 0 0 14px 0;
+        }
+        em {
+            color: #444;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 0 0 14px 0;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        a:hover {
+            color: #555;
+        }
+        .note {
+            font-style: italic;
+            color: #555;
+            font-size: 0.92em;
+            margin-bottom: 28px;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.85em;
+            color: #888;
+            border-top: 1px solid #ddd;
+            padding-top: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>INFO 230 Mini-Project 3: Beyond the Joke</h1>
+    <p class="subtitle">A Multimodal Analysis of Blame and Framing in US Political and COVID Memes &nbsp;&middot;&nbsp; Spring 2026</p>
+
+    <h2>Links</h2>
+    <p class="note">Hi Professor Tim! The full analysis, code, and write-up live in the notebook below. The README has setup instructions and repo structure if helpful.</p>
+    <ul>
+        <li><a href="code/project-workflow.html">View Notebook</a></li>
+        <li><a href="README.html">View README</a></li>
+    </ul>
+
+    <h2>Research Question</h2>
+    <p>How do US political and COVID memes differ in how they assign blame, victimhood, and heroism &mdash; and do visual, textual, and acoustic features reinforce those framings?</p>
+
+    <h2>Summary</h2>
+    <p>Memes are not trivial internet content. They assign blame, invert the emotional tone of political speech, and circulate ideological positions in a format designed for rapid sharing. This project treats them as genuine cultural artifacts and applies a full multimodal pipeline across three datasets and eight steps of analysis to find out what they are actually doing.</p>
+
+    <p>The most consistent finding is that Donald Trump dominates the meme data more than any other figure by a wide margin, appearing simultaneously as the top villain, hero, and victim depending on who made the meme. COVID memes are emotionally flat and tightly clustered around neutrality, with no equivalent celebratory cluster to match the partisan wins captured in US Politics memes. Moving into the campaign speech data, every politician speaks more positively than the memes about them suggest. Meme culture is actively inverting the tone of real political speech and redirecting it as blame. The COVID keyword analysis draws a direct line from Trump&rsquo;s China-framing rhetoric in his 2020 speeches to the meme villain data, where China is the second most common villain tag. Finally, acoustic feature analysis on the actual debate audio shows that Trump and Biden sound genuinely different at the signal level, and that the feature separating them most clearly(zero crossing rate) also tracks with the villain count gap in memes.</p>
+
+    <h2>Datasets</h2>
+    <ul>
+        <li><a href="https://www.kaggle.com/datasets/yogesh239/text-data-ocr" target="_blank">Memes Images: OCR Data</a> &mdash; 5,552 political and COVID memes with OCR text and entity tags (yogesh239, Kaggle)</li>
+        <li><a href="https://doi.org/10.1038/s41597-025-04681-x" target="_blank">2020 US Presidential Election Campaign Speeches</a> &mdash; 1,081 cleaned speeches from Trump, Biden, Pence, and Harris (Chalkiadakis et al., 2025)</li>
+        <li><a href="https://aclanthology.org/2021.argmining-1.8/" target="_blank">M-Arg Multimodal Argumentation Dataset</a> &mdash; 17 MP3 debate clips with force-aligned utterance timestamps (Mestre et al., 2021)</li>
+    </ul>
+
+    <footer>
+        Mini Project 3 &nbsp;&middot;&nbsp; INFO 230: Cultural Analytics, Spring 2026 &nbsp;&middot;&nbsp; Maddie MacDonald &nbsp;&middot;&nbsp; UC Berkeley Statistics, MA
+    </footer>
+
+</body>
+</html>
