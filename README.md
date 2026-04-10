@@ -5,7 +5,7 @@
 
 ## Overview
 
-How do US political and COVID memes differ in how they assign blame, victimhood, and heroism -- and do visual, textual, and acoustic features reinforce those framings? This project applies a full multimodal cultural analytics pipeline across three datasets and eight steps of analysis to find out.
+How do US political and COVID memes differ in how they assign blame, victimhood, and heroism. Do visual, textual, and acoustic features reinforce those framings? This project applies a full multimodal cultural analytics pipeline across three datasets and eight steps of analysis to find out.
 
 For the full analysis, results, discussion, and interpretations see **`code/project-workflow.ipynb`**.
 
@@ -22,7 +22,6 @@ For the full analysis, results, discussion, and interpretations see **`code/proj
 ---
 
 ## Repo Structure
-```
 ```
 cultural-analytics-project-3/
 ├── code/
@@ -45,7 +44,6 @@ cultural-analytics-project-3/
 │   └── validation_data.csv          <- meme validation set (650 rows)
 ├── README.md
 └── index.html
-```
 ```
 ---
 
@@ -71,6 +69,6 @@ pip install librosa
 
 ## Course Context
 
-Mini Project 3 — INFO 230: Cultural Analytics, Spring 2026
+Mini Project 3 (INFO 230: Cultural Analytics, Spring 2026)
 
 By Maddie MacDonald | UC Berkeley Statistics, MA
