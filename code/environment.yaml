@@ -17,7 +17,6 @@ dependencies:
   - pip=25.3
 
   - pip:
-      - wordcloud==1.9.6
       - kaleido==1.2.0
       - mediapipe==0.10.33
       - librosa==0.10.2
