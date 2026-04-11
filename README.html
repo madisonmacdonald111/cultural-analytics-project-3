@@ -125,12 +125,12 @@
 </tr>
 <tr>
 <td>
-<a href="https://doi.org/10.1038/s41597-025-04681-x" rel="nofollow">2020 US Presidential Election Campaign Speeches</a> (Chalkiadakis et al., 2025)</td>
+<a href="https://doi.org/10.5281/zenodo.14785782" rel="nofollow">2020 US Presidential Election Campaign Speeches</a> (Chalkiadakis et al., 2025)</td>
 <td>1,081 cleaned campaign speeches from Trump, Biden, Pence, and Harris (Jan 2019 to Jan 2021)</td>
 </tr>
 <tr>
 <td>
-<a href="https://aclanthology.org/2021.argmining-1.8/" rel="nofollow">M-Arg Multimodal Argumentation Dataset</a> (Mestre et al., 2021)</td>
+<a href="https://zenodo.org/records/5653504" rel="nofollow">M-Arg Multimodal Argumentation Dataset</a> (Mestre et al., 2021)</td>
 <td>17 MP3 audio clips from the 5 US 2020 presidential debates with force-aligned utterance timestamps</td>
 </tr>
 </tbody>
@@ -163,21 +163,28 @@
 <div class="markdown-heading"><h2 class="heading-element">How to Run</h2><a id="user-content-how-to-run" class="anchor" aria-label="Permalink: How to Run" href="#how-to-run"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <ol>
 <li>Clone the repo</li>
-<li>Create and activate the conda environment: <code>conda env create -f code/environment.yaml</code>
-</li>
-<li>Install librosa separately: <code>pip install librosa</code>
-</li>
+<li>Create and activate the conda environment:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre>conda env create -f environment.yaml
+conda activate cultural_analytics</pre></div>
+<ol start="3">
 <li>Run <code>code/project-workflow.ipynb</code> top to bottom</li>
 </ol>
 <hr>
-<div class="markdown-heading"><h2 class="heading-element">Dependencies</h2><a id="user-content-dependencies" class="anchor" aria-label="Permalink: Dependencies" href="#dependencies"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
-<p>pandas, numpy, nltk, scikit-learn, plotly, matplotlib,
-wordcloud, Pillow, opencv-python, librosa</p>
-<div class="highlight highlight-source-shell"><pre>conda env create -f code/environment.yaml
-pip install librosa</pre></div>
+<div class="markdown-heading"><h2 class="heading-element">Environment</h2><a id="user-content-environment" class="anchor" aria-label="Permalink: Environment" href="#environment"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>All dependencies are managed via <code>environment.yaml</code> using the <code>cultural_analytics</code> conda environment. Key packages include: <code>pandas</code>, <code>numpy</code>, <code>nltk</code>, <code>scikit-learn</code>, <code>plotly</code>, <code>matplotlib</code>, <code>Pillow</code>, <code>opencv-python</code>, <code>librosa</code></p>
 <hr>
-<div class="markdown-heading"><h2 class="heading-element">Course Context</h2><a id="user-content-course-context" class="anchor" aria-label="Permalink: Course Context" href="#course-context"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
-<p>Mini Project 3 (INFO 230: Cultural Analytics, Spring 2026)</p>
+<div class="markdown-heading"><h2 class="heading-element">References</h2><a id="user-content-references" class="anchor" aria-label="Permalink: References" href="#references"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h3 class="heading-element">Datasets</h3><a id="user-content-datasets-1" class="anchor" aria-label="Permalink: Datasets" href="#datasets-1"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>yogesh239. (2023). Memes Images: OCR Data. Kaggle. <a href="https://www.kaggle.com/datasets/yogesh239/text-data-ocr" rel="nofollow">https://www.kaggle.com/datasets/yogesh239/text-data-ocr</a></p>
+<p>Chalkiadakis, I., Angles d'Auriac, L., Peters, G.W., and Frau-Meigs, D. (2025). A text dataset of campaign speeches of the main tickets in the 2020 US presidential election. <em>Scientific Data</em>, 12, 662. <a href="https://doi.org/10.1038/s41597-025-04681-x" rel="nofollow">https://doi.org/10.1038/s41597-025-04681-x</a> | Dataset: <a href="https://doi.org/10.5281/zenodo.14785782" rel="nofollow">https://doi.org/10.5281/zenodo.14785782</a></p>
+<p>Mestre, R., Milicin, R., Middleton, S.E., Ryan, M., Zhu, J., and Norman, T.J. (2021). M-Arg: Multimodal Argument Mining Dataset for Political Debates with Audio and Transcripts. <em>Proceedings of the 8th Workshop on Argument Mining</em>, pp. 78-88. Association for Computational Linguistics. <a href="https://aclanthology.org/2021.argmining-1.8/" rel="nofollow">https://aclanthology.org/2021.argmining-1.8/</a> | Dataset: <a href="https://zenodo.org/records/5653504" rel="nofollow">https://zenodo.org/records/5653504</a></p>
+<div class="markdown-heading"><h3 class="heading-element">Methods and Tools</h3><a id="user-content-methods-and-tools" class="anchor" aria-label="Permalink: Methods and Tools" href="#methods-and-tools"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Chowdhury, J.H., Ramanna, S., and Kotecha, K. (2025). Speech emotion recognition with light weight deep neural ensemble model using hand crafted features. <em>Scientific Reports</em>, 15, 11824. <a href="https://doi.org/10.1038/s41598-025-95734-z" rel="nofollow">https://doi.org/10.1038/s41598-025-95734-z</a></p>
+<p>Hutto, C.J. and Gilbert, E.E. (2014). VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. <em>Proceedings of the 8th International AAAI Conference on Weblogs and Social Media (ICWSM-14)</em>. <a href="https://doi.org/10.1609/icwsm.v8i1.14550" rel="nofollow">https://doi.org/10.1609/icwsm.v8i1.14550</a></p>
+<p>McFee, B., Raffel, C., Liang, D., Ellis, D.P.W., McVicar, M., Battenberg, E., and Nieto, O. (2015). librosa: Audio and Music Signal Analysis in Python. <em>Proceedings of the 14th Python in Science Conference (SciPy 2015)</em>, pp. 18-24. <a href="https://doi.org/10.25080/majora-7b98e3ed-003" rel="nofollow">https://doi.org/10.25080/majora-7b98e3ed-003</a></p>
+<div class="markdown-heading"><h2 class="heading-element">AI Disclosure</h2><a id="user-content-ai-disclosure" class="anchor" aria-label="Permalink: AI Disclosure" href="#ai-disclosure"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Claude (Anthropic) was used as an AI assistant throughout this project for help with code structure, debugging, implementation decisions, and writing feedback. All code was read through, understood, and retyped manually. All analytical decisions, interpretations, and conclusions are my own. Claude helped, but the thinking was mine.</p>
 <p>By Maddie MacDonald | UC Berkeley Statistics, MA</p>
 
                       </article>
